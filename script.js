@@ -1,10 +1,10 @@
-let css = document.querySelector("h3");
-let color1 = document.querySelector(".color1");
-let color2 = document.querySelector(".color2");
-let body = document.getElementById("gradient");
-let container = document.querySelector(".container");
+var _ = require('lodash');
 
-
+const css = document.querySelector("h3");
+const color1 = document.querySelector(".color1");
+const color2 = document.querySelector(".color2");
+const body = document.getElementById("gradient");
+const container = document.querySelector(".container");
 
 function setGradient() {
 		body.style.background = 
